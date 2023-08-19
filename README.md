@@ -76,9 +76,9 @@ The Hurdle Model is a strategic approach employed in scenarios where the target 
 - Second, for instances where the hurdle is crossed (i.e., non-zero outcome predicted), a regression model is used to predict the value of the target variable.
 
 ## Data Pre-processing
-- Parse the JSON columns (device, geoNetwork , totals, trafficSource ) into several columnc and drop the old JSON columns.
+- Parse the JSON columns (device, geoNetwork , totals, trafficSource ) into several columns and drop the old JSON columns.
 - Replace various unknown values [unknown.unknown, (not set), not available in demo dataset, (not provided), (none),<NA>] with NA
-- Drop the nwely parsed JSON columns that have only 1 unique value (1 cardinality)
-- Convert data column from character to Date class.
+- Drop the newly parsed JSON columns that have only 1 unique value (1 cardinality)
+- Convert date column from character to Date class.
 - Convert all the newly JSON columns (hits, pageviews, newVisits, transactionRevenue) from character to numeric
 - Features that had more than 95% of their values missing are removed. After dropping those features,few features that have smaller number of missing values have been addressed through imputation.
