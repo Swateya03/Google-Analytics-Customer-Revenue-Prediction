@@ -82,3 +82,20 @@ The Hurdle Model is a strategic approach employed in scenarios where the target 
 - Convert date column from character to Date class.
 - Convert all the newly JSON columns (hits, pageviews, newVisits, transactionRevenue) from character to numeric
 - Features that had more than 95% of their values missing are removed. After dropping those features,few features that have smaller number of missing values have been addressed through imputation.
+## Data Interpretation
+- Missing value analysis
+- Time Period Analysis
+- Channel Analysis
+- Web Browser Analysis
+- Operating System Analysis
+- Device Category Analysis
+## Methodology Flowchart
+
+![Screenshot (595)](https://github.com/Swateya03/Google-Analytics-Customer-Revenue-Prediction/assets/142562275/07c5c5ab-0ce2-477a-9df8-be4df2ab87ad)
+
+## Conclusion
+- Using the knowledge gained from our analysis, suggestion for G-Store to focus on its existing customers who visit their website 100--500 times each year because these consumers generate the highest  mean revenue per visit.
+- The following tactics can be used to accomplish this: noted that most of the Google's revenue comes from Windows OS users; as a result, there should be a greater emphasis on targeting Windows OS users by purchasing ad slots on the Microsoft Sore or on Firefix browsers on these Windows PCs.
+- The month of April saw the highest income, indicating that Google should proritize it and spend more on advertising there (than at any other time of year).
+- Even though America accounts for 97.7% of G-revenure, Store's the continent of Africs has the largest revenue-per-user potential, witha an average that is 436 & higher than of Oceania and lower than that of all other continents.
+- G-Store should so concentrate on users in Africa. Thus, Google may leverage the model's features to boost income it can get from its current clientele rather than diverting resources to bringing on new clients with little revenue(or existing clients who may or may not make a significant purchase on its G-Store).
